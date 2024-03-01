@@ -1,5 +1,5 @@
 package org.prog.collections;
 
 public enum CarBrand {
-    TOYOTA, MAZDA, FORD, FIAT;
+    TOYOTA, MAZDA, FORD, FIAT, VOLKSWAGEN;
 }
