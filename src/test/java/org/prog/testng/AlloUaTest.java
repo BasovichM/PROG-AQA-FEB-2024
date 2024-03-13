@@ -14,6 +14,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
+
 public class AlloUaTest {
 
     private final WebDriver driver = WebDriverFactory.getDriver();

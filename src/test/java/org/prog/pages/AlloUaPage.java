@@ -8,6 +8,7 @@ import java.time.Duration;
 import java.util.List;
 
 
+
 public class AlloUaPage {
     private final WebDriver driver;
     public AlloUaPage(WebDriver driver) {
