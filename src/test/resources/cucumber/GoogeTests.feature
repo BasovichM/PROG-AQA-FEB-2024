@@ -1,10 +1,11 @@
 Feature: Google search tests
 
-#  TODO: write tests for ${your.site.name} as cucumber scenarios
+# TODO: write tests for ${your.site.name} as cucumber scenarios
 # TODO 2.1: create SQL table with product name and product price
 # TODO 2.2: Write test that will search for a product and record its price into DB if this product is not there yet
 # TODO 2.3: Check that current price is same as price in DB. IF price is different, update price in DB and fail test
 
+  @severity=critical
   Scenario: Simple Cucumber Scenario
     Given I retrieve a random user from API as "user_1"
     Given I retrieve a random user from API as "user_2"
